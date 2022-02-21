@@ -6,6 +6,10 @@ import { API_URL } from '@/config/index'
 import styles from '@/styles/Dashboard.module.css'
 
 export default function DashboardPage({ events, token }) {
+  if (!events) {
+    return <div>There are not events</div>
+  }
+
   const router = useRouter()
 
   const deleteEvent = async (id) => {
