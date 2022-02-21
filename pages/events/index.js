@@ -4,9 +4,11 @@ import Pagination from '@/components/Pagination'
 import { API_URL, PER_PAGE } from '@/config/index'
 
 export default function EventsPage({ events, page, total }) {
-  if (!events) {
-    return <div>There are not events</div>
-  }
+  // if (!events) {
+  //   return <div>There are not events</div>
+  // }
+
+  return <div>There are not events</div>
 
   return (
     <Layout>
