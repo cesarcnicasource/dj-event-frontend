@@ -4,6 +4,7 @@ import EventItem from '@/components/EventItem'
 import { API_URL } from '@/config/index'
 
 export default function HomePage({ events }) {
+  return <div>There not events</div>
   return (
     <Layout>
       <h1>Upcoming Events</h1>
